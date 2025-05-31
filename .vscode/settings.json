@@ -1,0 +1,23 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class:\\s*?[\"'`]([^\"'`]*).*?[\"'`]", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["tw`([^`]*)", "([\"'`][^\"'`]*[\"'`])"]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  }
+}
