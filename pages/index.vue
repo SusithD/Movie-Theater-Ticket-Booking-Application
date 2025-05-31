@@ -349,33 +349,7 @@
     
     <!-- How It Works Section -->
     <section class="relative py-20 overflow-hidden">
-      <!-- Background Elements -->
-      <div class="absolute inset-0">
-        <!-- Gradient background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-dark-300 via-dark-200 to-dark-300"></div>
-        
-        <!-- Floating geometric shapes -->
-        <div class="absolute inset-0 opacity-10">
-          <div class="absolute top-20 left-10 w-24 h-24 bg-gradient-to-br from-accent-500 to-primary-500 rounded-full blur-lg animate-float-slow"></div>
-          <div class="absolute top-40 right-1/4 w-32 h-32 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full blur-xl animate-float"></div>
-          <div class="absolute bottom-20 left-1/3 w-28 h-28 bg-gradient-to-br from-secondary-500 to-accent-500 rounded-full blur-lg animate-float-reverse"></div>
-        </div>
-
-        <!-- Animated connection lines -->
-        <div class="absolute inset-0 opacity-20">
-          <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" style="stop-color:#4F6BFF;stop-opacity:0.3" />
-                <stop offset="50%" style="stop-color:#06D6A0;stop-opacity:0.6" />
-                <stop offset="100%" style="stop-color:#4F6BFF;stop-opacity:0.3" />
-              </linearGradient>
-            </defs>
-            <path d="M 100 300 Q 400 200 800 300" stroke="url(#lineGradient)" stroke-width="2" fill="none" class="animate-pulse" />
-            <path d="M 200 400 Q 500 350 900 400" stroke="url(#lineGradient)" stroke-width="2" fill="none" class="animate-pulse" style="animation-delay: 1s;" />
-          </svg>
-        </div>
-      </div>
+      
 
       <div class="container mx-auto px-6 relative z-10">
         <!-- Enhanced Section Header -->
@@ -594,25 +568,7 @@
     
     <!-- Enhanced Testimonials Section -->
     <section class="relative py-20 overflow-hidden">
-      <!-- Background Elements -->
-      <div class="absolute inset-0">
-        <!-- Gradient background -->
-        <div class="absolute inset-0 bg-gradient-to-b from-dark-400 via-dark-300 to-dark-400"></div>
-        
-        <!-- Floating quote elements -->
-        <div class="absolute inset-0 opacity-5">
-          <div class="absolute top-20 left-1/4 text-6xl text-primary-400 font-bold transform rotate-12 animate-float">"</div>
-          <div class="absolute bottom-20 right-1/4 text-6xl text-accent-400 font-bold transform -rotate-12 animate-float-reverse">"</div>
-          <div class="absolute top-1/2 left-10 text-4xl text-secondary-400 font-bold transform rotate-45 animate-float-slow">"</div>
-          <div class="absolute top-32 right-10 text-4xl text-primary-300 font-bold transform -rotate-45 animate-float">"</div>
-        </div>
-
-        <!-- Floating geometric shapes -->
-        <div class="absolute inset-0 opacity-8">
-          <div class="absolute top-32 left-16 w-20 h-20 bg-gradient-to-br from-primary-500 to-accent-500 rounded-full blur-lg animate-float-slow"></div>
-          <div class="absolute bottom-32 right-16 w-24 h-24 bg-gradient-to-br from-accent-500 to-secondary-500 rounded-full blur-lg animate-float"></div>
-        </div>
-      </div>
+      
 
       <div class="container mx-auto px-6 relative z-10">
         <!-- Enhanced Section Header -->
@@ -927,21 +883,6 @@
     <!-- Call to Action -->
     <section class="relative bg-gradient-to-br from-primary-900 via-secondary-900 to-accent-900 py-20 mb-16 overflow-hidden">
       <!-- Background Elements -->
-      <div class="absolute inset-0">
-        <!-- Animated gradient overlay -->
-        <div class="absolute inset-0 bg-gradient-to-r from-primary-800/30 to-secondary-800/30 animate-pulse"></div>
-        
-        <!-- Floating cinema elements -->
-        <div class="absolute top-10 left-10 w-16 h-16 border-2 border-accent-400/30 rounded-full animate-float"></div>
-        <div class="absolute top-20 right-20 w-12 h-12 border-2 border-secondary-400/30 rounded-full animate-float-delayed"></div>
-        <div class="absolute bottom-20 left-20 w-8 h-8 bg-accent-400/20 rounded-full animate-pulse"></div>
-        <div class="absolute bottom-10 right-10 w-6 h-6 bg-secondary-400/20 rounded-full animate-bounce"></div>
-        
-        <!-- Film strip decoration -->
-        <div class="absolute top-0 left-1/4 w-1 h-full bg-gradient-to-b from-transparent via-accent-400/20 to-transparent"></div>
-        <div class="absolute top-0 right-1/4 w-1 h-full bg-gradient-to-b from-transparent via-secondary-400/20 to-transparent"></div>
-      </div>
-
       <div class="container mx-auto px-4 text-center relative z-10">
         <!-- Main content with enhanced animations -->
         <div class="max-w-4xl mx-auto space-y-8">
