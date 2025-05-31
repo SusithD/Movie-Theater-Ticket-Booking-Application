@@ -93,6 +93,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { ref, computed } from 'vue';
 import { useMovies } from '~/composables/useMovies';
 import { useBooking } from '~/composables/useBooking';
+import ShowtimeSelector from '~/components/booking/ShowtimeSelector.vue';
 
 const route = useRoute();
 const router = useRouter();

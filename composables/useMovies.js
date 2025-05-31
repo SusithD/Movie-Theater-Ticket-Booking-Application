@@ -20,12 +20,12 @@ const movies = [
     ],
     director: 'Denis Villeneuve',
     showtimes: [
-      { id: 11, time: '12:30', date: '2024-05-10', screen: 1, availableSeats: 84 },
-      { id: 12, time: '15:45', date: '2024-05-10', screen: 3, availableSeats: 65 },
-      { id: 13, time: '19:30', date: '2024-05-10', screen: 2, availableSeats: 90 },
-      { id: 14, time: '13:15', date: '2024-05-11', screen: 1, availableSeats: 80 },
-      { id: 15, time: '16:30', date: '2024-05-11', screen: 2, availableSeats: 72 },
-      { id: 16, time: '20:00', date: '2024-05-11', screen: 3, availableSeats: 68 }
+      { id: 11, time: '12:30', date: '2025-06-01', screen: 1, availableSeats: 84 },
+      { id: 12, time: '15:45', date: '2025-06-01', screen: 3, availableSeats: 65 },
+      { id: 13, time: '19:30', date: '2025-06-01', screen: 2, availableSeats: 90 },
+      { id: 14, time: '13:15', date: '2025-06-02', screen: 1, availableSeats: 80 },
+      { id: 15, time: '16:30', date: '2025-06-02', screen: 2, availableSeats: 72 },
+      { id: 16, time: '20:00', date: '2025-06-02', screen: 3, availableSeats: 68 }
     ]
   },
   {
@@ -45,12 +45,12 @@ const movies = [
     ],
     director: 'Christopher Nolan',
     showtimes: [
-      { id: 21, time: '14:00', date: '2024-05-10', screen: 4, availableSeats: 70 },
-      { id: 22, time: '17:45', date: '2024-05-10', screen: 5, availableSeats: 85 },
-      { id: 23, time: '21:15', date: '2024-05-10', screen: 4, availableSeats: 60 },
-      { id: 24, time: '13:30', date: '2024-05-11', screen: 5, availableSeats: 88 },
-      { id: 25, time: '17:00', date: '2024-05-11', screen: 4, availableSeats: 74 },
-      { id: 26, time: '20:30', date: '2024-05-11', screen: 5, availableSeats: 79 }
+      { id: 21, time: '14:00', date: '2025-06-01', screen: 4, availableSeats: 70 },
+      { id: 22, time: '17:45', date: '2025-06-01', screen: 5, availableSeats: 85 },
+      { id: 23, time: '21:15', date: '2025-06-01', screen: 4, availableSeats: 60 },
+      { id: 24, time: '13:30', date: '2025-06-02', screen: 5, availableSeats: 88 },
+      { id: 25, time: '17:00', date: '2025-06-02', screen: 4, availableSeats: 74 },
+      { id: 26, time: '20:30', date: '2025-06-02', screen: 5, availableSeats: 79 }
     ]
   },
   {
@@ -71,12 +71,12 @@ const movies = [
     ],
     director: 'Matt Reeves',
     showtimes: [
-      { id: 31, time: '13:00', date: '2024-05-10', screen: 6, availableSeats: 82 },
-      { id: 32, time: '16:45', date: '2024-05-10', screen: 7, availableSeats: 67 },
-      { id: 33, time: '20:00', date: '2024-05-10', screen: 6, availableSeats: 55 },
-      { id: 34, time: '14:15', date: '2024-05-11', screen: 7, availableSeats: 90 },
-      { id: 35, time: '18:00', date: '2024-05-11', screen: 6, availableSeats: 77 },
-      { id: 36, time: '21:30', date: '2024-05-11', screen: 7, availableSeats: 63 }
+      { id: 31, time: '13:00', date: '2025-06-01', screen: 6, availableSeats: 82 },
+      { id: 32, time: '16:45', date: '2025-06-01', screen: 7, availableSeats: 67 },
+      { id: 33, time: '20:00', date: '2025-06-01', screen: 6, availableSeats: 55 },
+      { id: 34, time: '14:15', date: '2025-06-02', screen: 7, availableSeats: 90 },
+      { id: 35, time: '18:00', date: '2025-06-02', screen: 6, availableSeats: 77 },
+      { id: 36, time: '21:30', date: '2025-06-02', screen: 7, availableSeats: 63 }
     ]
   },
   {
@@ -97,12 +97,12 @@ const movies = [
     ],
     director: 'Bong Joon-ho',
     showtimes: [
-      { id: 41, time: '15:30', date: '2024-05-10', screen: 8, availableSeats: 75 },
-      { id: 42, time: '18:45', date: '2024-05-10', screen: 9, availableSeats: 68 },
-      { id: 43, time: '21:00', date: '2024-05-10', screen: 8, availableSeats: 83 },
-      { id: 44, time: '14:45', date: '2024-05-11', screen: 9, availableSeats: 92 },
-      { id: 45, time: '18:15', date: '2024-05-11', screen: 8, availableSeats: 61 },
-      { id: 46, time: '20:45', date: '2024-05-11', screen: 9, availableSeats: 73 }
+      { id: 41, time: '15:30', date: '2025-06-01', screen: 8, availableSeats: 75 },
+      { id: 42, time: '18:45', date: '2025-06-01', screen: 9, availableSeats: 68 },
+      { id: 43, time: '21:00', date: '2025-06-01', screen: 8, availableSeats: 83 },
+      { id: 44, time: '14:45', date: '2025-06-02', screen: 9, availableSeats: 92 },
+      { id: 45, time: '18:15', date: '2025-06-02', screen: 8, availableSeats: 61 },
+      { id: 46, time: '20:45', date: '2025-06-02', screen: 9, availableSeats: 73 }
     ]
   },
   {
@@ -123,12 +123,12 @@ const movies = [
     ],
     director: 'Daniel Kwan, Daniel Scheinert',
     showtimes: [
-      { id: 51, time: '13:45', date: '2024-05-10', screen: 1, availableSeats: 80 },
-      { id: 52, time: '16:30', date: '2024-05-10', screen: 2, availableSeats: 70 },
-      { id: 53, time: '19:45', date: '2024-05-10', screen: 3, availableSeats: 85 },
-      { id: 54, time: '15:00', date: '2024-05-11', screen: 1, availableSeats: 77 },
-      { id: 55, time: '18:30', date: '2024-05-11', screen: 2, availableSeats: 64 },
-      { id: 56, time: '21:15', date: '2024-05-11', screen: 3, availableSeats: 89 }
+      { id: 51, time: '13:45', date: '2025-06-01', screen: 1, availableSeats: 80 },
+      { id: 52, time: '16:30', date: '2025-06-01', screen: 2, availableSeats: 70 },
+      { id: 53, time: '19:45', date: '2025-06-01', screen: 3, availableSeats: 85 },
+      { id: 54, time: '15:00', date: '2025-06-02', screen: 1, availableSeats: 77 },
+      { id: 55, time: '18:30', date: '2025-06-02', screen: 2, availableSeats: 64 },
+      { id: 56, time: '21:15', date: '2025-06-02', screen: 3, availableSeats: 89 }
     ]
   },
   {
@@ -149,12 +149,12 @@ const movies = [
     ],
     director: 'Christopher Nolan',
     showtimes: [
-      { id: 61, time: '14:30', date: '2024-05-10', screen: 4, availableSeats: 73 },
-      { id: 62, time: '17:15', date: '2024-05-10', screen: 5, availableSeats: 65 },
-      { id: 63, time: '20:45', date: '2024-05-10', screen: 4, availableSeats: 82 },
-      { id: 64, time: '15:45', date: '2024-05-11', screen: 5, availableSeats: 69 },
-      { id: 65, time: '19:00', date: '2024-05-11', screen: 4, availableSeats: 76 },
-      { id: 66, time: '22:15', date: '2024-05-11', screen: 5, availableSeats: 88 }
+      { id: 61, time: '14:30', date: '2025-06-01', screen: 4, availableSeats: 73 },
+      { id: 62, time: '17:15', date: '2025-06-01', screen: 5, availableSeats: 65 },
+      { id: 63, time: '20:45', date: '2025-06-01', screen: 4, availableSeats: 82 },
+      { id: 64, time: '15:45', date: '2025-06-02', screen: 5, availableSeats: 69 },
+      { id: 65, time: '19:00', date: '2025-06-02', screen: 4, availableSeats: 76 },
+      { id: 66, time: '22:15', date: '2025-06-02', screen: 5, availableSeats: 88 }
     ]
   },
   {
@@ -175,12 +175,12 @@ const movies = [
     ],
     director: 'Frank Darabont',
     showtimes: [
-      { id: 71, time: '13:15', date: '2024-05-10', screen: 6, availableSeats: 78 },
-      { id: 72, time: '16:00', date: '2024-05-10', screen: 7, availableSeats: 86 },
-      { id: 73, time: '19:15', date: '2024-05-10', screen: 6, availableSeats: 67 },
-      { id: 74, time: '14:30', date: '2024-05-11', screen: 7, availableSeats: 81 },
-      { id: 75, time: '17:45', date: '2024-05-11', screen: 6, availableSeats: 74 },
-      { id: 76, time: '20:30', date: '2024-05-11', screen: 7, availableSeats: 70 }
+      { id: 71, time: '13:15', date: '2025-06-01', screen: 6, availableSeats: 78 },
+      { id: 72, time: '16:00', date: '2025-06-01', screen: 7, availableSeats: 86 },
+      { id: 73, time: '19:15', date: '2025-06-01', screen: 6, availableSeats: 67 },
+      { id: 74, time: '14:30', date: '2025-06-02', screen: 7, availableSeats: 81 },
+      { id: 75, time: '17:45', date: '2025-06-02', screen: 6, availableSeats: 74 },
+      { id: 76, time: '20:30', date: '2025-06-02', screen: 7, availableSeats: 70 }
     ]
   },
   {
@@ -201,12 +201,12 @@ const movies = [
     ],
     director: 'Christopher Nolan',
     showtimes: [
-      { id: 81, time: '15:00', date: '2024-05-10', screen: 8, availableSeats: 69 },
-      { id: 82, time: '18:30', date: '2024-05-10', screen: 9, availableSeats: 75 },
-      { id: 83, time: '21:45', date: '2024-05-10', screen: 8, availableSeats: 82 },
-      { id: 84, time: '14:15', date: '2024-05-11', screen: 9, availableSeats: 90 },
-      { id: 85, time: '17:30', date: '2024-05-11', screen: 8, availableSeats: 77 },
-      { id: 86, time: '21:00', date: '2024-05-11', screen: 9, availableSeats: 68 }
+      { id: 81, time: '15:00', date: '2025-06-01', screen: 8, availableSeats: 69 },
+      { id: 82, time: '18:30', date: '2025-06-01', screen: 9, availableSeats: 75 },
+      { id: 83, time: '21:45', date: '2025-06-01', screen: 8, availableSeats: 82 },
+      { id: 84, time: '14:15', date: '2025-06-02', screen: 9, availableSeats: 90 },
+      { id: 85, time: '17:30', date: '2025-06-02', screen: 8, availableSeats: 77 },
+      { id: 86, time: '21:00', date: '2025-06-02', screen: 9, availableSeats: 68 }
     ]
   }
 ];

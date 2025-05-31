@@ -11,7 +11,7 @@
     <div class="seat-map mb-8">
       <div v-for="(row, rowIndex) in seatMap" :key="`row-${rowIndex}`" class="seat-row flex justify-center mb-2">
         <div class="row-label flex items-center justify-center w-8 mr-2 text-gray-400">
-          {{ row[0].row }}
+          {{ row[0]?.row }}
         </div>
         <div class="flex gap-1">
           <button

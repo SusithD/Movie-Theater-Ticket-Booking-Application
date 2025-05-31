@@ -70,6 +70,7 @@ import { ref, computed, onMounted } from 'vue';
 import { useMovies } from '~/composables/useMovies';
 import { useBooking } from '~/composables/useBooking';
 import { useAuth } from '~/composables/useAuth';
+import SeatMap from '~/components/booking/SeatMap.vue';
 
 const route = useRoute();
 const router = useRouter();
