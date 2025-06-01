@@ -1,24 +1,5 @@
 <template>
   <footer class="relative bg-gradient-to-b from-dark-300/50 to-dark-500 border-t border-white/10 py-16 mt-20 overflow-hidden">
-    <!-- Animated Background Elements -->
-    <div class="absolute inset-0 overflow-hidden pointer-events-none">
-      <!-- Floating geometric shapes -->
-      <div class="absolute top-10 left-1/4 w-24 h-24 bg-gradient-to-br from-primary-500/5 to-accent-500/5 rounded-full blur-xl animate-float-slow"></div>
-      <div class="absolute bottom-10 right-1/4 w-32 h-32 bg-gradient-to-br from-accent-500/5 to-secondary-500/5 rounded-full blur-xl animate-float-reverse"></div>
-      <div class="absolute top-1/2 right-10 w-20 h-20 bg-gradient-to-br from-secondary-500/5 to-primary-500/5 rounded-full blur-lg animate-float"></div>
-      
-      <!-- Floating cinema elements -->
-      <div class="absolute top-8 right-20 opacity-3">
-        <svg class="w-12 h-12 text-primary-400 animate-spin-slow" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"/>
-        </svg>
-      </div>
-      <div class="absolute bottom-12 left-16 opacity-3">
-        <svg class="w-8 h-8 text-accent-400 animate-float" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-        </svg>
-      </div>
-    </div>
 
     <!-- Glass overlay effect -->
     <div class="absolute inset-0 bg-gradient-to-t from-dark-500/80 via-transparent to-transparent backdrop-blur-sm"></div>
@@ -175,18 +156,8 @@
               All rights reserved.
             </p>
             <p class="text-gray-500 text-xs mt-1">
-              Crafted with ❤️ for movie enthusiasts worldwide
+              Crafted for movie enthusiasts worldwide
             </p>
-          </div>
-          
-          <!-- Decorative elements -->
-          <div class="flex items-center gap-3">
-            <div class="flex space-x-2">
-              <div class="w-2 h-2 bg-primary-500 rounded-full animate-pulse"></div>
-              <div class="w-2 h-2 bg-accent-500 rounded-full animate-pulse" style="animation-delay: 0.3s;"></div>
-              <div class="w-2 h-2 bg-secondary-500 rounded-full animate-pulse" style="animation-delay: 0.6s;"></div>
-            </div>
-            <span class="text-gray-500 text-xs">Demo Application</span>
           </div>
         </div>
       </div>
